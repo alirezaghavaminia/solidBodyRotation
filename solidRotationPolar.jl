@@ -32,8 +32,8 @@ function makeMarker(r0, t0, l1, l2)
     ts1 = t0 
     tf1 = t0 
 
-    rs2 = r0 
-    rf2 = r0 
+    rs2 = sqrt(r0^2 + (l2/2)^2) 
+    rf2 = sqrt(r0^2 + (l2/2)^2) 
     te = atan(l2/(2*r0))
     ts2 = t0 - te
     tf2 = t0 + te
